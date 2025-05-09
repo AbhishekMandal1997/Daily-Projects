@@ -1,4 +1,4 @@
-# Interactive Travel Quiz Display Ad
+# Quiz Display Ad
 
 This is an interactive display ad with a travel quiz and video component.
 
@@ -20,7 +20,7 @@ Place the following files in the `assets` directory:
 
 ## Setup
 1. Create an `assets` directory
-2. Add the required assets (world-map.png, pin.png, travel-video.mp4)
+2. Add the required assets (world-map.png, pin.png, travel-video.mp4)h
 3. Open index.html in a web browser
 
 ## Dependencies

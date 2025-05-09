@@ -254,15 +254,16 @@ body {
     flex-grow: 1;
     position: relative;
     padding: 15px;
+    height: 100%;
 }
 
 .europe-map {
     width: 100%;
-    height: 100%;
-    background-image: url('https://i.imgur.com/N2xDMxY.png');
-    background-size: contain;
+    height: 600px;
+    background-image: url('./_materials/map.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -8rem;
     position: relative;
 }
 
@@ -277,6 +278,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease;
     z-index: 5;
+    color: #b91c1c;
 }
 
 .map-pin:hover {
@@ -288,7 +290,7 @@ body {
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #0284c7;
+    background-color: #02adc7;
     color: white;
     padding: 2px 6px;
     border-radius: 3px;
@@ -388,7 +390,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 0;
     z-index: 2;
 }
